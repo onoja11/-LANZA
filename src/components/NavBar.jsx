@@ -6,7 +6,7 @@ const Navbar = ({ toggleSidebar }) => {
     <nav className="fixed top-0 left-0 right-0 z-40 bg-white/80 backdrop-blur-md border-b border-[#8F7023]/30 px-6 py-4 flex items-center justify-between">
       {/* Left Section - Logo */}
       <h1 className="text-xl font-semibold text-[#8F7023] tracking-wider">
-        ÉLANZA
+        ELANZA
       </h1>
 
       {/* Right Section - Hamburger */}
