@@ -10,14 +10,14 @@ const AppLayout = () => {
   const closeSidebar = () => setIsSidebarOpen(false);
 
   return (
-    <div className="min-h-screen flex bg-gradient-to-br from-yellow-500 to-yellow-950 text-white">
+    <div className="min-h-screen flex bg-yellow-200/20 text-white">
       {/* Sidebar */}
       <Sidebar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
 
       {/* Main content */}
       <div className="flex-1 flex flex-col">
         <Navbar toggleSidebar={toggleSidebar} />
-        <main className="p-6 mt-16">
+        <main className="">
           <Outlet />
         </main>
       </div>
