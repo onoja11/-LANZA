@@ -10,13 +10,11 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-white/30 backdrop-blur-sm"></div>
 
-      {/* ✅ Content */}
       <div className="relative max-w-7xl mx-auto z-10">
         <div className="sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
               <h1 className="fade-in text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-5xl xl:text-6xl">
-                <span className="block pt-9 lg:pt-0 text-[#8F7023] font-bold">
+                <span className="block pt-14 lg:pt-0 text-[#8F7023] font-bold">
                   Born in Nigeria
                 </span>
                 <span className="block text-[#8F7023]">Inspired by Africa</span>
@@ -47,7 +45,6 @@ const Hero = () => {
                   </Link>
                 </div>
               </div>
-            </div>
           </main>
         </div>
       </div>
