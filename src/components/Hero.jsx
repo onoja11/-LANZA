@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heroBg from "../assets/elanza2.jpeg"; 
+// import heroBg from "../assets/elanza2.jpeg"; 
 
 const Hero = () => {
   return (
