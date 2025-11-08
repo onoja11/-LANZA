@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import heroBg from "../assets/elanza2.jpeg"; 
+import heroBg from "../assets/elanza2.jpeg"; 
 
 const Hero = () => {
   return (
     <div
       className="relative  bg-cover bg-center bg-no-repeat overflow-hidden"
-    //   style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className="absolute inset-0 bg-white/30 backdrop-blur-sm"></div>
 
