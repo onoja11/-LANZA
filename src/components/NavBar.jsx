@@ -12,7 +12,9 @@ const Navbar = ({ toggleSidebar }) => {
           alt="Elanza Logo"
           className="h-10 w-10 rounded-full object-cover border border-[#8F7023]/40"
         />
-        <h1 className="text-xl font-bold text-[#8F7023] tracking-wide">
+        <h1 className="text-xl text-[#8F7023] tracking-wide brand-name"
+          style={{ fontFamily: "'Pacifico', cursive" }}
+>
           ELANZA
         </h1>
       </div>

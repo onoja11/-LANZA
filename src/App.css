@@ -6,6 +6,17 @@
 
 
 } */
-/* body {
+body {
   font-family: 'Playfair Display', serif;
-} */
+}
+
+
+
+
+.brand-name {
+ font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
