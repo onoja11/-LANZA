@@ -1,8 +1,11 @@
 @import "tailwindcss";
-.background-image {
+/* .background-image {
   background-image: url('./assets/elanzaImage.webp');
   background-size: cover;
   background-position: center;
-  
 
-}
+
+} */
+/* body {
+  font-family: 'Playfair Display', serif;
+} */
