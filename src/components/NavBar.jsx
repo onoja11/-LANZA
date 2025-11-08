@@ -1,6 +1,7 @@
 import React from "react";
 import { Menu } from "lucide-react";
-import logo from "../assets/elanzalogo.jpg"; // ✅ remove the curly braces
+import logo from "../assets/elanzalogo.jpg"; 
+
 
 const Navbar = ({ toggleSidebar }) => {
   return (
