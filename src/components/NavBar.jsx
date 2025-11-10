@@ -1,25 +1,14 @@
 import React from "react";
 import { Menu } from "lucide-react";
-import logo from "../assets/elanzalogo.jpg"; 
+import Logo from "./Logo";
 
 
 const Navbar = ({ toggleSidebar }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-white/80 backdrop-blur-md border-b border-[#8F7023]/30 px-6 py-3 flex items-center justify-between">
       {/* Left Section - Logo + Name */}
-      <div className="flex items-center space-x-3">
-        <img
-          src={logo}
-          alt="Elanza Logo"
-          className="h-10 w-10 rounded-full object-cover border border-[#8F7023]/40"
-        />
-        <h1 className="text-xl text-[#8F7023] tracking-wide brand-name"
-          style={{ fontFamily: "'Pacifico', cursive" }}
->
-          ELANZA
-        </h1>
-      </div>
-
+     
+      <Logo/>
       {/* Right Section - Hamburger Menu */}
       <button
         onClick={toggleSidebar}
